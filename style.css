@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+html{
+    font-size: 22px;
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box;
+    text-align: center;
+    color:#8F0066;
+
+    
+}
+
+body{
+    background-image: url("./img/back.jpg");
+    background-repeat:unset;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+nav{
+    
+    position: fixed;
+    width:100% ;
+    background-color: #f8e5ee;
+    max-height: 3rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    top:0;
+    
+}
+nav img{
+    max-height: 3rem;
+}
+nav li{
+ display: inline-flex;
+ margin-right: 0.75rem;
+ text-decoration: none;
+}
+a{
+    color: #8F0066;
+}
+.main-container{
+height: 700px;
+background-image: url("./img/main.jpg");
+max-width: 45rem;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+display: flex;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+border: 1px solid #f8e5ee;
+border-radius: 50px;
+}
+
+.textbox{
+    width: 100%;
+    background: #f8e5ee;
+    margin: 0; 
+}
+
+.baristabox{
+    max-width: 45rem;
+    background-color: #f8e5ee;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #f8e5ee;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.baristabox img{
+    width:400px;
+    height:auto;
+    margin: 0; 
+    border: 1px solid #f8e5ee;
+    border-radius: 10px;
+}
+#baristas h2{
+    background: #f8e5ee;
+    border: 10px solid #f8e5ee;
+    border-radius: 45%;
+    max-width: 10rem;
+    margin: 1rem auto;
+}
+figcaption{
+    font-size: 1.25rem;
+}
+#locations h2{
+    background: #f8e5ee;
+    border: 10px solid #f8e5ee;
+    border-radius: 45%;
+    max-width: 10rem;
+    margin: 1rem auto;
+}
+
+.locationsbox{
+    max-width: 45rem;
+    background-color: #f8e5ee;
+    margin: 0 auto 1rem;
+    display: flex;
+    border: 1px solid #f8e5ee;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.locationsbox img{
+    width:400px;
+    height:auto;
+    margin: 0; 
+    border: 1px solid #f8e5ee;
+    border-radius: 10px;
+}
+
+.locationsbox figcaption{
+    font-size: 1rem;
+}
+.footers{
+    max-width: 45rem;
+    background-color: #f8e5ee;
+    margin: 0 auto;
+    display: flex;
+    border-top: 1px solid #f8e5ee;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: gray;
+}
